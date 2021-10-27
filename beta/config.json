@@ -1,0 +1,24 @@
+{
+  "name": "Double Take (beta)",
+  "version": "1.6.0",
+  "panel_icon": "mdi:cctv",
+  "slug": "double-take-beta",
+  "description": "Unified UI and API for processing and training images for facial recognition",
+  "arch": ["amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 3000,
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Web interface (not required for Home Assistant ingress)"
+  },
+  "map": ["media:rw", "config:rw"],
+  "environment": {
+    "STORAGE_PATH": "/config/double-take",
+    "CONFIG_PATH": "/config/double-take",
+    "MEDIA_PATH": "/media/double-take"
+  }
+}
