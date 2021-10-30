@@ -12,7 +12,7 @@
   "ingress_port": 3000,
   "panel_admin": false,
   "options": {
-    "server": "double-take.local:5000"
+    "server": "double-take.local:3000"
   },
   "schema": {
     "server": "match(^.+:\\d+$)"
