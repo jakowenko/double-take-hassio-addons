@@ -1,0 +1,7 @@
+{
+  "build_from": {
+    "amd64": "deepquestai/deepstack:latest",
+    "aarch64": "deepquestai/deepstack:arm64",
+    "armv7": "deepquestai/deepstack:arm64"
+  }
+}

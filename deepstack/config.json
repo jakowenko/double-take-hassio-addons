@@ -1,0 +1,20 @@
+{
+  "name": "DeepStack",
+  "version": "2021.09.1",
+  "url": "https://github.com/johnolafenwa/DeepStack",
+  "slug": "deepstack",
+  "description": "The World's Leading Cross Platform AI Engine for Edge Devices",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "5000/tcp": 5001
+  },
+  "ports_description": {
+    "5000/tcp": "API"
+  },
+  "environment": {
+    "VISION-FACE": "True",
+    "VISION-DETECTION": "True"
+  }
+}
