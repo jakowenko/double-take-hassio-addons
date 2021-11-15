@@ -2,7 +2,7 @@
   "name": "DeepStack (CPU)",
   "version": "2021.09.1",
   "url": "https://github.com/johnolafenwa/DeepStack",
-  "slug": "deepstack",
+  "slug": "deepstack-cpu",
   "description": "The World's Leading Cross Platform AI Engine for Edge Devices",
   "arch": ["amd64"],
   "startup": "application",
