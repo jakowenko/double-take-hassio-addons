@@ -2,7 +2,7 @@
   "name": "Double Take Proxy",
   "version": "1.0.0",
   "url": "https://github.com/jakowenko/double-take",
-  "panel_icon": "mdi:cctv",
+  "panel_icon": "mdi:face-recognition",
   "slug": "double-take-proxy",
   "description": "Unified UI and API for processing and training images for facial recognition",
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
