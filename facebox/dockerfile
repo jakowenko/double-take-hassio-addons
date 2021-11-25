@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM machinebox/facebox
 
 
-# ENV LANG="$(bashio::config 'MB_KEY')" 
+ ENV MB_KEY="$(bashio::config 'MB_KEY')" 
