@@ -1,6 +1,6 @@
 ![amd64]amd64-shield
 
-# DeepStack (CPU)
+# FaceBox
 
 [Documentation](https://docs.deepstack.cc)
 
