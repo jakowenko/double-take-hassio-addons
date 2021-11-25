@@ -1,5 +1,5 @@
 ---
 configuration:
-  MB_KEY:
+  MmbKey:
     name: The Mb Key itself
     description: test test.
