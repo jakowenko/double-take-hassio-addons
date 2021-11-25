@@ -20,7 +20,7 @@ ports_description:
     "8000/tcp": 8000
 
 options: 
-  MB_KEY: Key goes Here
+  MmbKey: Key goes Here
 schema: 
-  MB_KEY: str
+  MmbKey: str
 

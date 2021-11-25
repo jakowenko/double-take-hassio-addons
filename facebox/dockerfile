@@ -2,4 +2,4 @@ ARG BUILD_FROM
 FROM machinebox/facebox
 
 
- ENV MB_KEY="$(bashio::config 'MB_KEY')" 
+ENV MB_KEY="$(bashio::config 'MmbKey')"
