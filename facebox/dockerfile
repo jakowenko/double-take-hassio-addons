@@ -1,5 +1,0 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
-
-
-# ENV LANG="$(bashio::config 'MB_KEY')" 
