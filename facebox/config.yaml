@@ -1,0 +1,26 @@
+
+
+name: Facebox Face Detection
+version: 1a1358d
+url: https://github.com/johnolafenwa/DeepStack
+slug: facebox-face-detect
+description: Facebox detects and identifies faces in photos. You can teach facebox with as little as one sample image
+
+arch: 
+  - amd64 
+
+startup: application
+boot: auto
+
+webui: http://[HOST]:8000
+ports:
+   "8000/tcp": 8000
+
+ports_description:
+    "8000/tcp": 8000
+
+options: 
+  MmbKey: Key goes Here
+schema: 
+  MmbKey: str
+

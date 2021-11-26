@@ -1,0 +1,5 @@
+---
+configuration:
+  MmbKey:
+    name: The Mb Key itself
+    description: test test.
