@@ -15,7 +15,11 @@ https://machinebox.io/login?return_url=%2Faccount
 After that click on the icon beside the bell and select the Developer tab.
 There you can get to your Machine Box menu and  get Your key.
 
-Then you have to enter the key in the config of the addon. :) Done.
+Then you have to enter the key in the config of the addon. :) 
+
+Start and Done.
+
+Side Note... it does not like close up selfies... 
 
 [Documentation](https://docs.deepstack.cc)
  
