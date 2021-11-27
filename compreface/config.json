@@ -1,25 +1,16 @@
 {
-  "name": "Compreface",
+  "name": "CompreFace",
   "version": "0.6.1",
+  "url": "https://github.com/exadel-inc/CompreFace",
   "slug": "compreface",
-  "description": "Spin up a container running Compreface",
-  "url": "https://github.com/jakowenko/double-take-hassio-addons/compreface",
-  "startup": "application",
-  "panel_icon": "mdi:console",
-  "panel_title": "Compreface",
-  "homeassistant": "0.92.0b2",
+  "description": "Exadel CompreFace is a leading free and open-source face recognition system",
   "arch": ["amd64"],
-  "devices": [],
-  "map": [
-    "config:ro"
-  ],
-  "journald": false,
-  "options" : {
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "80/tcp": 8000
   },
-  "schema" : {
-  },
-
-  "ports" : {
-    "80/tcp" : 8000
+  "ports_description": {
+    "80/tcp": "UI/API"
   }
 }

@@ -4,12 +4,12 @@
 #
 # Ensure persistent data is stored in /data/ and then start the stack
 
-if [ "$PGDATA" == "/data/pgsql" ] && [ -d /data ]
+if [ "$PGDATA" == "/data/database" ] && [ -d /data ]
 then
-   if [ ! -d  /data/pgsql ]
+   if [ ! -d  /data/database ]
    then
       # Populate
-      cp -rp /var/lib/postgresql/data /data/pgsql
+      cp -rp /var/lib/postgresql/data /data/database
    fi
 fi
 

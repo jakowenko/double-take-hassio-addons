@@ -1,6 +1,6 @@
 FROM exadel/compreface:0.6.1
-ENV PGDATA=/data/pgsql
+ENV PGDATA=/data/database
 RUN rm /etc/postgresql/13/main/postgresql.conf
 COPY postgresql.conf /etc/postgresql/13/main/postgresql.conf
-COPY wrapper.sh /wrapper.sh
-CMD ["/wrapper.sh"]
+COPY run.sh /
+CMD ["/run.sh"]
