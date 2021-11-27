@@ -8,9 +8,11 @@ ARG MB_KEY="ZjcwZmRmZGY5YzdmN2VhNGI0MzY1ZTllZTYxN2Q5OTQ.lvdI810vzV-h_RlXJu6TLweu
 ENV LANG C.UTF-8
  
 
-RUN mkdir -p /sinisa
-COPY run.sh /sinisa
+RUN mkdir -p /wtf
+COPY run.sh /wtf
  
-RUN chmod +x /sinisa/run.sh
-RUN /sinisa/run.sh
-CMD ["sh", "/sinisa/run.sh"]
+RUN chmod +x /wtf/run.sh
+RUN /wtf/run.sh
+
+#CMD ["sh", "/sinisa/run.sh"]
+CMD ["executable", "/wtf/run.sh"]
