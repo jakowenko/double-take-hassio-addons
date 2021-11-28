@@ -14,7 +14,7 @@
     "8080/tcp": "API acess"
   },
   "options": {
-    "MB_KEY": "ZjcwZmRmZGY5YzdmN2VhNGI0MzY1ZTllZTYxN2Q5OTQ.lvdI810vzV-h_RlXJu6TLweuJmKsJHYVY9pYc1bLh1vbW0oS_MIO5TI-hF_v9MLfGSgy6E0ombv7soaYy5coBw"
+    "MB_KEY": ""
   },
   "schema": {
     "MB_KEY": "str"
