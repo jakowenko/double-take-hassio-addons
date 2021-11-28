@@ -1,9 +1,9 @@
 {
-  "name": "Facebox Face Detection",
-  "version": "0.21",
-  "url": "https://github.com/johnolafenwa/DeepStack",
+  "name": "Facebox",
+  "version": "1a1358d",
+  "url": "https://machinebox.io/docs/facebox",
   "slug": "facebox",
-  "description": "Facebox detects and identifies faces in photos. You can teach facebox with as little as one sample image",
+  "description": "Facial recognition with one-shot teaching",
   "arch": ["amd64"],
   "startup": "application",
   "boot": "auto",
@@ -11,7 +11,7 @@
     "8080/tcp": 8000
   },
   "ports_description": {
-    "8080/tcp": "API acess"
+    "8080/tcp": "UI/API"
   },
   "options": {
     "MB_KEY": ""
