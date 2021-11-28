@@ -1,15 +1,6 @@
 #!/bin/bash
-
-echo Hello world!
-
-echo "this is a line" > /file.txt
-
-echo file created!
-
-export wtf=test
-
-echo glob var.
-
-
-echo grep -Po '"MB_KEY": *\K"[^"]*"' /data/options.json
-echo grep -Po '"MB_KEY": *\K"[^"]*"' /data/options.json > file.txt
+values=`cat /data/options.json`
+for s in $(echo $values | jq -r "to_entries|map(\"\(.key)=\(.value|tostring)\")|.[]" ); do
+    export $s
+done
+/app/facebox
