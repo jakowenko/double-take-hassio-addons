@@ -21,5 +21,8 @@ Start and Done.
 
 Side Note... it does not like close up selfies... 
 
+
+Also thanks a bunch to Jacko from double take discord for helping me out 
+sincerly sinisaculic@gmail.com
 [Documentation](https://docs.deepstack.cc)
  
