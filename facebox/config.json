@@ -1,0 +1,22 @@
+{
+  "name": "Facebox",
+  "version": "1a1358d",
+  "url": "https://machinebox.io/docs/facebox",
+  "slug": "facebox",
+  "description": "Facial recognition with one-shot teaching",
+  "arch": ["amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "8080/tcp": 8000
+  },
+  "ports_description": {
+    "8080/tcp": "UI/API"
+  },
+  "options": {
+    "MB_KEY": ""
+  },
+  "schema": {
+    "MB_KEY": "str"
+  }
+}
