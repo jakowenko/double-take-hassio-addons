@@ -1,6 +1,6 @@
 {
   "name": "Facebox Face Detection",
-  "version": "21",
+  "version": "0.21",
   "url": "https://github.com/johnolafenwa/DeepStack",
   "slug": "facebox",
   "description": "Facebox detects and identifies faces in photos. You can teach facebox with as little as one sample image",
