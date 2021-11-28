@@ -30,6 +30,10 @@
 
 ![amd64][amd64-shield] ![armv7][armv7-shield] ![aarch64][aarch64-shield]
 
+### [Facebox](./facebox)
+
+![amd64][amd64-shield]
+
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
