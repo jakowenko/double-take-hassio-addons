@@ -17,12 +17,14 @@
     "POSTGRES_URL": "jdbc:postgresql://localhost:5432/frs",
     "POSTGRES_USER": "compreface",
     "POSTGRES_PASSWORD": "M7yfTsBscdqvZs49",
-    "POSTGRES_DB": "frs"
+    "POSTGRES_DB": "frs",
+    "API_JAVA_OPTS": "Xmx1g"
   },
   "schema": {
     "POSTGRES_URL": "str",
     "POSTGRES_USER": "str",
     "POSTGRES_PASSWORD": "str",
-    "POSTGRES_DB": "str"
+    "POSTGRES_DB": "str",
+    "API_JAVA_OPTS": "str"
   }
 }
