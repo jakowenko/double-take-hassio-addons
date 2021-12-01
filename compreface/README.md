@@ -1,4 +1,4 @@
-# CompreFace
+# Exadel CompreFace
 
 This add-on runs the [single container](https://github.com/exadel-inc/CompreFace/issues/651) version of CompreFace.
 
