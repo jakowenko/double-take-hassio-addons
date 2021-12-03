@@ -18,7 +18,7 @@
     "POSTGRES_USER": "compreface",
     "POSTGRES_PASSWORD": "M7yfTsBscdqvZs49",
     "POSTGRES_DB": "frs",
-    "API_JAVA_OPTS": "Xmx1g"
+    "API_JAVA_OPTS": "-Xmx1g"
   },
   "schema": {
     "POSTGRES_URL": "str",
