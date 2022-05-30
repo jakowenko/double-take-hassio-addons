@@ -18,10 +18,18 @@
   },
   "map": ["media:rw", "config:rw"],
   "environment": {
+    "HA_ADDON": "true"
+  },
+  "options": {
     "STORAGE_PATH": "/config/double-take",
     "CONFIG_PATH": "/config/double-take",
     "SECRETS_PATH": "/config",
-    "MEDIA_PATH": "/media/double-take",
-    "HA_ADDON": "true"
+    "MEDIA_PATH": "/media/double-take"
+  },
+  "schema": {
+    "STORAGE_PATH": "str",
+    "CONFIG_PATH": "str",
+    "SECRETS_PATH": "str",
+    "MEDIA_PATH": "str"
   }
 }
