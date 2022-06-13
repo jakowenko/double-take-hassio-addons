@@ -1,1 +1,1 @@
-FROM jakowenko/double-take:1.11.0
+FROM jakowenko/double-take:1.12.0
