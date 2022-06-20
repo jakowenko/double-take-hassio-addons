@@ -25,10 +25,10 @@ start() {
 }
 
 
-if grep -q avx /proc/cpuinfo && grep -q avx2 /proc/cpuinfo
+if grep -q avx /proc/cpuinfo
 then
   start
 else
-  echo "AVX2 not detected"
+  echo "AVX not detected"
 fi
 
