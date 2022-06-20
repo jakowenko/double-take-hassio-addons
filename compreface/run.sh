@@ -4,11 +4,13 @@
 #
 # Ensure persistent data is stored in /data/ and then start the stack
 
+set -euo pipefail
+
 start() {
-  echo "Starting CompreFace"
-  values=`cat /data/options.json`
-  for s in $(echo $values | jq -r "to_entries|map(\"\(.key)=\(.value|tostring)\")|.[]" ); do
-      export $s
+  echo "Starting CompreFace" >&2
+  values=$(cat /data/options.json)
+  for s in $(echo "$values" | jq -r "to_entries|map(\"\(.key)=\(.value|tostring)\")|.[]" ); do
+      export "${s?}"
   done
 
   if [ "$PGDATA" == "/data/database" ] && [ -d /data ]
@@ -19,9 +21,9 @@ start() {
     fi
   fi
 
-  chown -R postgres:postgres $PGDATA
+  chown -R postgres:postgres "$PGDATA"
 
-  /usr/bin/supervisord
+  exec /usr/bin/supervisord
 }
 
 
@@ -29,6 +31,6 @@ if grep -q avx /proc/cpuinfo
 then
   start
 else
-  echo "AVX not detected"
+  echo "AVX not detected" >&2
+  exit 1
 fi
-
